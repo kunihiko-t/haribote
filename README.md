@@ -29,7 +29,7 @@ Run
 2016/04/07 02:39:36 Registered Handler {/json GET application/json 200  ./sample/test.json}
 2016/04/07 02:39:36 Registered Handler {/image GET image/jpeg 200  ./sample/malta.jpg}
 2016/04/07 02:39:36 Registered Handler {/post POST text/plain 200  ./sample/test.txt}
-2016/04/07 02:39:36 Registered Handler {/error505 GET text/plain 500 Internal Server Error }
+2016/04/07 02:39:36 Registered Handler {/error500 GET text/plain 500 Internal Server Error }
 ```
 You can access localhost like http://localhost:9090/text
 
