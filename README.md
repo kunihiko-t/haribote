@@ -18,7 +18,7 @@ Options
  -f string
      Config file name
  -p int
-     Port number (default "9090")
+     Port number (default 9090)
 ```
 
 Run
@@ -41,7 +41,7 @@ You can access localhost like http://localhost:9090/text
     {"Path": "/json", "Method": "GET", "ContentType":"application/json", "StatusCode":200, "File":"./sample/test.json"},
     {"Path": "/image", "Method": "GET", "ContentType":"image/jpeg", "StatusCode":200, "File":"./sample/malta.jpg"},
     {"Path": "/post", "Method": "POST", "ContentType":"text/plain", "StatusCode":200, "File":"./sample/test.txt"},
-    {"Path": "/error505", "Method": "GET", "ContentType":"text/plain", "StatusCode":500, "Text":"Internal Server Error"}
+    {"Path": "/error500", "Method": "GET", "ContentType":"text/plain", "StatusCode":500, "Text":"Internal Server Error"}
   ]
 }
 ```
